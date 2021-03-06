@@ -1,63 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-	<meta charset="utf-8" />
-	<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta name="theme-color" content="#000000" />
-	<meta name="description" content="Web site created using create-react-app" />
-	<link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-	<!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-	<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-	<!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-
-	<!-- Site made with Mobirise Website Builder v5.3.0, https://mobirise.com -->
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="generator" content="Mobirise v5.3.0, mobirise.com">
-	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-	<link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
-	<meta name="description" content="">
-<!--Logo.png-->
-
-	<title>Home</title>
-	<link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
-	<link rel="stylesheet" href="assets/tether/tether.min.css">
-	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
-	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-	<link rel="stylesheet" href="assets/dropdown/css/style.css">
-	<link rel="stylesheet" href="assets/socicon/css/styles.css">
-	<link rel="stylesheet" href="assets/theme/css/style.css">
-	<link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css">
-	<link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+import React,{ Component} from 'react';
 
 
-	<title>React App</title>
-</head>
-
-<body>
-	<noscript>You need to enable JavaScript to run this app.</noscript>
-	<div id="root">
-    
-  </div>
-  <section class="menu cid-s48OLK6784" once="menu" id="menu1-h">
+export default class Contact extends React.Component{
+  render(){
+    return (
+      <div className="content-wrapper">
+      <section nameclass="menu cid-s48OLK6784" once="menu" id="menu1-h">
   <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
     <div class="container-fluid">
       <div class="navbar-brand">
-        <span class="navbar-logo"><a href="https://apify.com/store"><img src="assets/images/logo.png" alt="Euphoria" style="height: 3.8rem;"></a></span>
+        <span class="navbar-logo"><a href="https://apify.com/store"><img src="assets/images/logo-transparent-121x121.png" alt="Euphoria" style="height: 3.8rem;"></a></span>
       </div><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <div class="hamburger"></div></button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -145,40 +97,10 @@
 <section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;">
   <a href="https://mobirise.site/r" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a>
   <p style="flex: 0 0 auto; margin:0; padding-right:1rem;"><a href="https://mobirise.site/s" style="color:#aaa;">Site</a> was made with Mobirise theme</p>
-</section>
-	<!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-    
-	<script src="assets/web/assets/jquery/jquery.min.js">
-	</script>
-	<script src="assets/popper/popper.min.js">
-	</script>
-	<script src="assets/tether/tether.min.js">
-	</script>
-	<script src="assets/bootstrap/js/bootstrap.min.js">
-	</script>
-	<script src="assets/smoothscroll/smooth-scroll.js">
-	</script>
-	<script src="assets/parallax/jarallax.min.js">
-	</script>
-	<script src="assets/dropdown/js/nav-dropdown.js">
-	</script>
-	<script src="assets/dropdown/js/navbar-dropdown.js">
-	</script>
-	<script src="assets/touchswipe/jquery.touch-swipe.min.js">
-	</script>
-	<script src="assets/theme/js/script.js">
-	</script>
+  </section>
+</div>
+    );
+}
 
 
-</body>
 
-</html>
